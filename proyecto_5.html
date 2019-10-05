@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicio 5</title>
+  <style media="screen" rel="stylesheet">
+
+.container{
+width: 100%;
+height: auto;
+margin: 0 auto;
+}
+
+.img-first{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.img-principal{
+  width: 24%;
+  height: 300px;
+}
+.img-principal img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.midle{
+display: flex;
+padding: 10px 0;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.midle img{
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.end{
+  display: flex;
+  text-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.end img{
+  width: 24%;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="img-first">
+    <div class="img-principal"><img src="imagenes/imagen_1.jpg" alt=""></div>
+    <div class="img-principal"><img src="imagenes/imagen_2.jpg" alt=""></div>
+    <div class="img-principal"><img src="imagenes/imagen_3.jpg" alt=""></div>
+    <div class="img-principal"><img src="imagenes/imagen_4.jpg" alt=""></div>
+  </div>
+
+
+  <div class="midle">
+    <img src="imagenes/imagen_5.jpg" alt="">
+  </div>
+
+  <div class="end">
+    <img src="imagenes/imagen_3.jpg" alt="">
+    <img src="imagenes/imagen_6.jpg" alt="">
+    <img src="imagenes/imagen_7.jpg" alt="">
+    <img src="imagenes/imagen_1.jpg" alt="">
+  </div>
+</div>
+</body>
+</html>
